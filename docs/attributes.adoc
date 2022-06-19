@@ -1,0 +1,39 @@
+:scripts: cjk
+:doctype: book
+:backend: pdf
+:idprefix:
+:idseparator: -
+:toc: left
+:toclevels: 4
+:tabsize: 4
+:numbered:
+:experimental:
+:sectanchors:
+:sectnums:
+:icons: font
+:pdf-fontsdir: {docdir}/fonts
+:pdf-themesdir: {docdir}/themes
+:pdf-theme: docs
+:source-highlighter: coderay
+:chapter-signifier:
+:chapter-refsig: {chapter-signifier}
+:toc-title: 目录
+:appendix-caption: 附录
+:appendix-refsig: {appendix-caption}
+:caution-caption: 注意
+:example-caption: 例
+:figure-caption: 图
+:important-caption: 重要
+:last-update-label: 最后更新
+ifdef::listing-caption[:listing-caption: 列表]
+ifdef::manname-title[:manname-title: 名称]
+:note-caption: 笔记
+//:part-signifier:
+//:part-refsig: {part-signifier}
+ifdef::preface-title[:preface-title: 序言]
+//:section-refsig:
+:table-caption: 表格
+:tip-caption: 提示
+:untitled-label: 暂无标题
+//:version-label: 版本
+:warning-caption: 警告

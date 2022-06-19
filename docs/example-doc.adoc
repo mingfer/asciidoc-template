@@ -1,0 +1,7 @@
+include::attributes.adoc[]
+ifndef::imagesdir[:imagesdir: images]
+= *asciidoc*: *_中文模板_*
+mingfer
+v{version}, {docdatetime}
+
+这是一个文档示例，用于演示如何将 asciidoc 导出为 PDF 文档。
