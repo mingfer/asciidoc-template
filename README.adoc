@@ -1,0 +1,9 @@
+= asciidoc template
+
+这是一个使用 asciidoc 语法编写中文文档的模板库。由于 asciidoc 默认的导出 PDF 对中文支持不太友好，会出现字符丢失。所以模板中还提供相关的中文字库 https://github.com/m13253/kaigen-fonts[Kaigen Fonts]。
+
+== 使用说明
+
+* 使用 `mvn generate-resources` 将示例文档 `docs/example-doc.adoc` 转换为 PDF 文档 `target/generated-docs/example-doc.pdf`。
+* 在 `docs/attributes.adoc` 中可以更改文档的相关属性。
+* 在 `docs/themes/docs-theme.yml` 中可以更改生成的 PDF 文件的样式
